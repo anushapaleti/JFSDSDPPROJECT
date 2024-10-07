@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Medicines</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        .header {
+            background-color: #00a1a1;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+        .content {
+            width: 80%;
+            margin: 30px auto;
+            max-width: 1200px;
+        }
+        .content h2 {
+            color: #00a1a1;
+            font-size: 28px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .product-grid {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .product-card {
+            background-color: white;
+            border-radius: 10px;
+            width: 250px;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .product-card img {
+            width: 100px;
+            height: 100px;
+        }
+        .product-card h3 {
+            margin: 15px 0;
+            font-size: 20px;
+            color: #333;
+        }
+        .product-card p {
+            font-size: 16px;
+            color: #555;
+            margin: 10px 0;
+        }
+        .price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #00a1a1;
+        }
+        .buy-now {
+            background-color: #00a1a1;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .buy-now:hover {
+            background-color: #008989;
+        }
+        .button img.logo {
+    width: 70px; /* Decrease the logo size */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle;
+    border-radius: 5px; /* Optional, rounded corners */
+}
+.button {
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    background-color: transparent; /* Ensure no background color */
+}
+
+.button a {
+    background-color: transparent; /* No background color for link */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        
+        <h1>Online Medicines</h1>
+        <div class="button">
+            <a href="home.html">
+                <img src="images/icon.png" alt="Health Care Logo" class="logo">
+            </a>
+        </div>
+        
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <h2>Buy Medicines Online</h2>
+        
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="images/Paracetamol 500mg.webp" alt="Medicine 1">
+                <h3>Paracetamol 500mg</h3>
+                <p>Relieves pain and reduces fever</p>
+                <div class="price">₹99</div>
+                <a href="#" class="buy-now">Buy Now</a>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="images/Ibuprofen 200mg.jpeg" alt="Medicine 2">
+                <h3>Ibuprofen 200mg</h3>
+                <p>Pain relief and anti-inflammatory</p>
+                <div class="price">₹175</div>
+                <a href="#" class="buy-now">Buy Now</a>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="images/Cough Syrup.jpeg" alt="Medicine 3">
+                <h3>Cough Syrup</h3>
+                <p>Soothes dry and productive cough</p>
+                <div class="price">₹89</div>
+                <a href="#" class="buy-now">Buy Now</a>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <img src="images/Antacids.webp" alt="Medicine 4">
+                <h3>Antacid Tablets</h3>
+                <p>Relieves heartburn and acid reflux</p>
+                <div class="price">₹68</div>
+                <a href="#" class="buy-now">Buy Now</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

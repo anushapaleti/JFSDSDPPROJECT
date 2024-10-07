@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consult with a Doctor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            background-color: #d9f0ff;
+            width: 850px;
+            height: 600px; /* Set the height */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            background-color: #71c5f0;
+            padding: 10px;
+            border-radius: 10px 10px 0 0;
+            text-align: center;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .form-group {
+            margin: 15px 0;
+        }
+
+        .form-group label {
+            font-size: 16px;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+            font-size: 14px;
+        }
+
+        .form-group input:focus {
+            border-color: #71c5f0;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #71c5f0;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .submit-btn:hover {
+            background-color: #5aa1c9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <span>HEALTH CARE</span><br>
+            Consult with a Doctor
+        </div>
+        <form action="bookappoinment.html" method="get">
+            <div class="form-group">
+                <label for="specialist">Specialist</label>
+                <input type="text" id="specialist" name="specialist">
+            </div>
+            <div class="form-group">
+                <label for="doctor-name">Doctor name</label>
+                <input type="text" id="doctor-name" name="doctor-name">
+            </div>
+            <div class="form-group">
+                <label for="book-date">Book Date</label>
+                <input type="date" id="book-date" name="book-date">
+            </div>
+            <div class="form-group">
+                <label for="book-time">Book Time</label>
+                <input type="time" id="book-time" name="book-time">
+            </div>
+            <div class="form-group">
+                <label for="fee-payment">Fee Payment</label>
+                <input type="text" id="fee-payment" name="fee-payment">
+            </div>
+            <button type="submit" class="submit-btn">CONTINUE</button>
+        </form>
+    </div>
+
+</body>
+</html>

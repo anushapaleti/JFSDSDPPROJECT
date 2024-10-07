@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Consultation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        .header {
+            background-color: #005f99;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 30px;
+        }
+        .content {
+            margin: 30px auto;
+            width: 80%;
+            max-width: 1000px;
+            text-align: center;
+        }
+        .content h2 {
+            color: #005f99;
+            font-size: 26px;
+        }
+        .video-section {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .video-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: 15px;
+            padding: 20px;
+            text-align: center;
+        }
+        .video-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        .video-card h3 {
+            color: #333;
+            margin-top: 15px;
+            font-size: 22px;
+        }
+        .video-card p {
+            color: #555;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .consult-btn {
+            background-color: #00c776;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .consult-btn:hover {
+            background-color: #00a85e;
+        }
+        .button img.logo {
+    width: 70px; /* Decrease the logo size */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle;
+    border-radius: 5px; /* Optional, rounded corners */
+}
+.button {
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    background-color: transparent; /* Ensure no background color */
+}
+
+.button a {
+    background-color: transparent; /* No background color for link */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Video Consultation</h1>
+        <div class="button">
+            <a href="home.html">
+                <img src="images/icon.png" alt="Health Care Logo" class="logo">
+            </a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <h2>Select a Doctor for Instant Video Consultation</h2>
+        
+        <div class="video-section">
+            <!-- Doctor 1 -->
+            <div class="video-card">
+                <img src="images/doctor12.png" alt="Doctor">
+                <h3>Dr. Sarah Johnson</h3>
+                <p>General Physician</p>
+                <a href="#" class="consult-btn">Consult Now</a>
+            </div>
+
+            <!-- Doctor 2 -->
+            <div class="video-card">
+                <img src="images/doctor13.png" alt="Doctor">
+                <h3>Dr. Mark Davis</h3>
+                <p>Dermatologist</p>
+                <a href="#" class="consult-btn">Consult Now</a>
+            </div>
+
+            <!-- Doctor 3 -->
+            <div class="video-card">
+                <img src="images/dovtor18.png" alt="Doctor">
+                <h3>Dr. Emily Carter</h3>
+                <p>Pediatrician</p>
+                <a href="#" class="consult-btn">Consult Now</a>
+            </div>
+
+            <!-- Doctor 4 -->
+            <div class="video-card">
+                <img src="images/doctor15.png" alt="Doctor">
+                <h3>Dr. David Green</h3>
+                <p>Pulmonologist</p>
+                <a href="#" class="consult-btn">Consult Now</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

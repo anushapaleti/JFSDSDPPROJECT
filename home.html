@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Care</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #b3e0f6;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        .header h1 {
+            margin: 0;
+            color: #005f99;
+            display: inline-block;
+        }
+        .header-nav {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .header-nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #005f99;
+        }
+        .button {
+            position: absolute;
+            left: 20px;
+            top: 20px;
+        }
+        .button a {
+            background-color: #005f99;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .button a:hover {
+            background-color: #004680;
+        }
+        .search-bar {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .search-bar input[type="text"] {
+            width: 400px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .content {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px;
+        }
+        .card {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px; /* Increase the width */
+    padding: 30px; /* Increase padding */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Slightly increase shadow */
+}
+.card img {
+    width: 150px; /* Increase image size */
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.card h3 {
+    margin: 10px 0;
+    color: #333;
+    font-size: 1.4em; /* Increase font size */
+}
+.card p {
+    margin: 10px 0;
+    color: #555;
+    font-size: 1.1em; /* Increase font size */
+}
+.button img.logo {
+    width: 70px; /* Decrease the logo size */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle;
+    border-radius: 5px; /* Optional, rounded corners */
+}
+.button {
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    background-color: transparent; /* Ensure no background color */
+}
+
+.button a {
+    background-color: transparent; /* No background color for link */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="button">
+            <a href="#">
+                <img src="images/icon.png" alt="Health Care Logo" class="logo">
+            </a>
+        </div>
+        <h1>HEALTH CARE</h1>
+        <div class="header-nav">
+            <a href="doctors.html">Doctors</a>
+            <a href="video.html">Video Consult</a>
+            <a href="OnlineMedicines.html">Online Medicines</a>
+        </div>
+    </div>
+    
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <input type="text" placeholder="Search for doctors">
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Card 1: Find Doctors Near You -->
+        <div class="card">
+            <img src="images/doctor_home1.avif" alt="Doctor">
+            <h3>Find Doctors Near you</h3>
+            <p>Confirmed appointments</p>
+        </div>
+
+        <!-- Card 2: Instant Video Consultation -->
+        <div class="card">
+            <img src="images/doctor_home2.jpg" alt="Doctor">
+            <h3>Instant video consultation</h3>
+            <p>Connect Within 60 secs</p>
+        </div>
+
+        <!-- Card 3: Prescription By Doctors -->
+        <div class="card">
+            <img src="images/tablets.jpg" alt="Medication">
+            <h3>Prescription By Doctors</h3>
+            <p>Medication Available 24/7</p>
+        </div>
+    </div>
+
+</body>
+</html>
